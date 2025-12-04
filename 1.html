@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Mahasiswa</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background: #f2f2f2;
+            font-size: 13px;
+        }
+
+        .container {
+            width: 600px;
+            background: white;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 70px;
+            margin-right: 15px;
+        }
+
+        .judul {
+            width: 100%;
+            text-align: center;
+        }
+
+        .judul h2 {
+            margin: 0;
+            font-size: 22px;   /* JUDUL UNIVERSITAS DIBESARKAN */
+            font-weight: bold;
+        }
+
+        .judul p {
+            margin: 5px 0 0;
+            font-size: 12px;
+        }
+
+        /* GARIS BIRU */
+        .garis {
+            border: 2px solid blue;
+            margin: 10px 0;
+        }
+
+        /* JUDUL FORM */
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* FORM */
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 6px;
+            font-size: 13px;
+        }
+
+        input, textarea {
+            width: 95%;
+            padding: 5px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+        }
+
+        /* TOMBOL */
+        .button-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 6px 12px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <img src="logo unindra.png" class="logo">
+        <div class="judul">
+            <h2>UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)</h2>
+            <p>Jl. Nangka No.58 Tanjung Barat - Jaksel</p>
+        </div>
+    </div>
+
+    <hr class="garis">
+
+    <!-- JUDUL FORM -->
+    <h3 class="form-title">BIODATA MAHASISWA</h3>
+
+    <!-- FORM -->
+    <form>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Telp</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email"></td>
+            </tr>
+        </table>
+
+        <div class="button-group">
+            <button type="submit">SIMPAN</button>
+            <button type="reset">BATAL</button>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
